@@ -1,0 +1,19 @@
+{
+   "tabWidth": 3,
+   "semi": false,
+   "singleQuote": true,
+   "trailingComma": "all",
+   "svelteSortOrder": "options-scripts-styles-markup",
+   "singleAttributePerLine": true,
+   "overrides": [
+      {
+         "files": [
+            "*.yml",
+            "*.yaml"
+         ],
+         "options": {
+            "tabWidth": 2
+         }
+      }
+   ]
+}
