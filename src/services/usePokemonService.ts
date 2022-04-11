@@ -9,9 +9,8 @@ export interface IPokeItem {
 }
 
 export const usePokemonService = () => {
-   const [quantity, setQuantity] = useState(2)
+   const [quantity, setQuantity] = useState(5)
    const { pokemons, isLoading, isError } = usePokemons(quantity)
-   console.log('quantity::', quantity)
    const [state, updateState] = useImmer<IPokeItem[]>([])
 
    const setInitialState = (stateToInit: IPokeItem[]) => {
